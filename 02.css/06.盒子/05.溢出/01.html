@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>溢出子级对于父级元素</title>
+    <style>
+
+
+        ::-webkit-scrollbar{
+            display: none;
+        }
+
+        #container{
+            height: 300px;
+            width: 150px;
+            border: 1px solid crimson;
+
+            /*overflow: hidden;*/
+            overflow: scroll;
+        }
+
+        #subdiv{
+            height: 500px;
+            width: 100px;
+
+            margin: 0 auto;   /*  子层 相对于 父层  横向居中 .  */
+
+            background-image: linear-gradient(to top , #E64A19 , #1976D2);/*纵向渐变*/
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="subdiv">
+            subdiv<br>
+            hhhhh<br>
+            kkkkkk <br><br><br><br><br><br>
+            llllll
+        </div>
+    </div>
+</body>
+</html>
