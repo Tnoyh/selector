@@ -1,0 +1,39 @@
+#Ilike{
+    height: 60px;
+    background-color:white;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+}
+
+
+.Ilike-flex{
+
+    flex: 1;
+}
+
+.ilike-num{
+
+    color: #666666;
+    font-weight: bold;
+
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+
+
+}
+
+.ilike-text{
+
+    color: #999999;
+    font-weight: inherit;
+    font-size: 12px;
+
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
