@@ -1,0 +1,301 @@
+#contentMe{
+    flex: 1;
+
+    overflow: scroll;
+}
+
+/******************我的MITC**********************/
+#WoDeMITC{
+
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+
+    border-top: 8px solid #eeeeee;
+    /*border-bottom: 8px solid #eeeeee;*/
+
+}
+
+#WoDeMITC-img{
+
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 27px;
+
+}
+
+#WoDeMITC-text{
+
+    width: 60px;
+    color: #666666;
+    font-size: 13px;
+
+    line-height: 50px;
+    text-align: center;
+}
+
+/*挤空间的*/
+.content-flex{
+    flex: 1;
+
+
+}
+
+
+/*未激活*/
+#WoDeMITC-WeiJiHuo{
+
+    width: 55px;
+
+    color: #aaaaaa;
+
+    font-size: 14px;
+
+    line-height: 50px;
+    text-align: center;
+
+    margin-right: 5px;
+}
+
+
+/***********************我的任务****************/
+
+#myMission{
+
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+
+    border-top: 8px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#myMission-img{
+
+
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+
+}
+
+#myMission-text{
+
+    width: 60px;
+    color: #666666;
+    font-size: 13px;
+
+    line-height: 50px;
+    text-align: center;
+}
+
+
+#myMission-done{
+
+
+    width: 85px;
+
+    color: #aaaaaa;
+
+    font-size: 14px;
+
+    line-height: 50px;
+    text-align: center;
+
+    margin-right: 5px;
+}
+
+
+#myMission-redPoint{
+
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:red;
+    margin-top: 21px;
+    margin-left: 10px;
+}
+
+
+/******************今日可免费领取******************************/
+
+#freeget{
+
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+
+
+    border-bottom: 8px solid #eeeeee;
+
+}
+
+#freeget-text{
+
+    width: 100px;
+    color: #666666;
+    font-size: 13px;
+
+    line-height: 50px;
+    text-align: center;
+
+    margin-left: 8px;
+
+}
+
+#coin{
+
+    width: 50px;
+    color:#88d278;
+    font-size: 11px;
+
+    line-height: 50px;
+    text-align: center;
+
+
+
+}
+
+#doMission-green{
+
+    width: 60px;
+    height: 30px;
+
+    border-radius: 13px;
+
+    background-color: #88d278;
+
+    margin-right: 8px;
+}
+
+#doMission-text{
+
+    color: white;
+    font-size: 11px;
+}
+
+/**************************兑换券*****************************/
+
+#exchange{
+
+
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+
+
+    border-bottom: 8px solid #eeeeee;
+}
+
+#exchange-img{
+
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 32px;
+}
+
+#exchange-text{
+
+    width: 46px;
+    height: 50px;
+    color: #666666;
+    font-size: 14px;
+
+    line-height: 50px;
+    text-align: center;
+
+
+
+}
+
+
+/*******************24小时客服***********************/
+
+
+#service{
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+
+
+    border-bottom: 8px solid #eeeeee;
+
+}
+
+
+#service-img{
+
+    height: 50px;
+    width: 50px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 28px;
+
+}
+
+#service-text{
+
+    width: 76px;
+    height: 50px;
+    color: #666666;
+    font-size: 14px;
+
+    line-height: 50px;
+    text-align: center;
+}
+
+/*****************设置**************************/
+
+#setup{
+
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+
+
+    border-bottom: 8px solid #eeeeee;
+
+}
+
+#setup-img{
+
+    height: 50px;
+    width: 50px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 30px;
+}
+
+#setup-text{
+
+    width: 36px;
+    height: 50px;
+    color: #666666;
+    font-size: 14px;
+
+    line-height: 50px;
+    text-align: center;
+}
+
+
+
+
+

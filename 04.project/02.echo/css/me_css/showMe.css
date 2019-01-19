@@ -1,0 +1,132 @@
+#showMe{
+    height: 100px;
+    background-color: #fFECB9;
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+/*头像展示的父层*/
+#showMe-left{
+
+
+    width: 100px;
+    height: 100px;
+
+
+}
+
+/*头像展示*/
+#showMe-left-img{
+
+    overflow: hidden;
+
+
+    width: 70px;
+    height: 70px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+
+    border-radius:50%;
+
+
+}
+
+
+/*分为5个层 首尾两个层分别撑开空间*/
+#showMe-center{
+
+    height: 100px;
+
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+
+
+}
+
+/*TnothMan 字体控制*/
+#showMe-center-top{
+
+    color: #666666;
+    font-weight: bolder;
+    font-size: 16px;
+
+
+}
+
+
+
+/*500人访问过我的主页  字体控制*/
+#showMe-center-center{
+    font-weight: normal;
+    color: #777777;
+    font-size: 14px;
+}
+
+
+/*echo id 字体控制 */
+#showMe-center-btm{
+
+    font-weight: revert;
+
+    color: #aaaaaa;
+
+    font-size: 10px;
+}
+
+
+.showMe-center-flex{
+    flex: 1;
+
+
+}
+
+
+
+#showMe-nothing{
+
+    flex: 1;
+}
+#showMe-right{
+    width: 90px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+
+
+
+}
+
+
+/*个人主页字体控制*/
+#showMe-right-personal{
+
+    color: #666666;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

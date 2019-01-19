@@ -1,0 +1,56 @@
+#function{
+    height: 140px;
+    background-color:white;
+
+    border-top: 8px solid #eeeeee;
+
+
+}
+
+#function-top{
+
+    height: 70px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+}
+
+#function-btm{
+
+    height: 70px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+}
+
+
+/*以下对文字对图片就三个属性*/
+.function-flex{
+    flex: 1;
+}
+
+.function-img{
+
+    height: 40px;
+
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.function-text{
+
+    height: 25px;
+
+    color: #666666;
+    line-height: 20px;
+    text-align: center;
+
+    font-size: 12px;
+}
