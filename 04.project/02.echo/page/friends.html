@@ -9,6 +9,10 @@
     <link href="../css/container.css"                  rel="stylesheet">
     <link href="../css/menus.css"                      rel="stylesheet">
     <link href="../css/status.css"                     rel="stylesheet">
+    <link href="../css/player.css"                     rel="stylesheet">
+
+
+
     <link href="../css/friends_css/joinFans.css"       rel="stylesheet">
     <link href="../css/friends_css/moreFans.css"       rel="stylesheet">
     <link href="../css/friends_css/occupationList.css" rel="stylesheet">
@@ -91,6 +95,93 @@
                 <div id="title-right—Magnifier" class="">🔍</div>
                 <div id="title-right-musicBtn"  class="" style="background-image: url(../img/icon/music.svg)"></div>
             </div>
+
+
+            <!--**************    以下为播放器界面   **************************-->
+            <!--**************    以下为播放器界面   **************************-->
+            <!--**************    以下为播放器界面   **************************-->
+
+            <div id="play-panel">
+
+                <!--最顶部挤空间的-->
+                <div id="panel-1" class=""></div>
+
+                <!--返回按钮-->
+                <div id="panel-back" class="">
+
+                    <div id="control" class="">&or;</div>
+
+
+                    <div id="control-1" class=""></div>
+                </div>
+
+                <!--专辑图片展示-->
+                <div id="panel-img" class="" style="background-image: url(../img/photo/froot.png)"></div>
+
+                <!--播放列表 前进、后退-->
+                <div id="panel-list" class="">
+
+                    <!--歌名-->
+                    <div id="list-songName">Froot</div>
+
+
+                    <!--歌手-->
+                    <div id="list-singer">Marina And The Diamonds</div>
+
+
+                    <!--播放、暂停、前进后退-->
+                    <div id="list-control" class="">
+
+                        <div id="list-control-1" class="list-control-flex "></div>
+                        <div id="list-control-play" class="list-control " style="background-image: url(../img/icon/play.svg)"></div>
+                        <div id="list-control-pause" class="list-control " style="background-image: url(../img/icon/pause.svg)"></div>
+                        <div id="list-control-pre" class="list-control " style="background-image: url(../img/icon/pre.svg)"></div>
+                        <div id="list-control-next" class="list-control " style="background-image: url(../img/icon/next.svg)"></div>
+                        <div id="list-control-6" class="list-control-flex "></div>
+                    </div>
+
+
+                    <!--进度条-->
+                    <div id="list-progressBar" class="">
+
+                        <!--开始时间-->
+                        <div id="current-time" class="">00:00</div>
+
+                        <!--进度条-->
+                        <div id="time-line" class="">
+
+                            <!--白点-->
+                            <div id="point" class=""></div>
+                        </div>
+
+                        <!--截止时间-->
+                        <div id="duration" class="">00:00</div>
+                    </div>
+
+
+
+                    <!--随机播放、顺序播放等  *******-->
+                    <div id="list-menus" class="">
+
+                        <div id="menus-random" style="background-image: url(../img/icon/随机播放.svg)"></div>
+                        <div id="menus-one" style="background-image: url(../img/icon/单曲循环.svg)"></div>
+                        <div id="menus-order" style="background-image: url(../img/icon/顺序播放.svg)"></div>
+                        <div id="menus-more" style="background-image: url(../img/icon/更多.svg)"></div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
         </div>
 
 
@@ -102,7 +193,12 @@
 
 
 
-        <div id="rotationChart" class="">dfd
+        <div id="rotationChart" class="">
+
+
+
+            <div id="rotationChart-img" style="background-image: url(../img/photo/1.jpg)"></div>
+
 
 
         </div>
@@ -465,22 +561,18 @@
         </div>
 
 
+        <!--*****************************    以下是底部菜单栏模块 ************************************-->
+
+     <div id="menus" class="">
+
+         <div id="menus-ear"      class="menus_img menus-flex " style="background-image: url(../img/icon/ear.svg)"><a href="index.html"></a></div>
+         <div id="menus-friends"  class="menus_img menus-flex " style="background-image: url(../img/icon/friends.svg)"><a href="friends.html"></a></div>
+         <div id="menus-plus"     class="menus_img menus-flex " style="background-image: url(../img/icon/plus.svg)"></div>
+         <div id="menus-find"     class="menus_img menus-flex " style="background-image: url(../img/icon/find.svg)"></div>
+         <div id="menus-me"       class="menus_img menus-flex " style="background-image: url(../img/icon/me.svg)"><a href="me.html"></a></div>
 
 
-
-
-
-
-     <!--*****************************    以下是底部菜单栏模块 ************************************-->
-
-        <div id="menus">
-            <div id="menus-ear"      class="menus_img menus-flex " style="background-image: url(../img/icon/ear.svg)"></div>
-            <div id="menus-friends"  class="menus_img menus-flex " style="background-image: url(../img/icon/friends.svg)"></div>
-            <div id="menus-plus"     class="menus_img menus-flex " style="background-image: url(../img/icon/plus.svg)"></div>
-            <div id="menus-find"     class="menus_img menus-flex " style="background-image: url(../img/icon/find.svg)"></div>
-            <div id="menus-me"       class="menus_img menus-flex " style="background-image: url(../img/icon/me.svg)"></div>
-
-        </div>
+     </div>
 
 
 
@@ -491,3 +583,106 @@
 
 </body>
 </html>
+
+
+<script src="../../../resources/js/jquery/jquery.js"></script>
+
+
+<script src="http://y.gtimg.cn/music/h5/player/player.js?max_age=2592000"></script>
+
+
+<script>
+
+    /*以下为轮播图界面***********************************/
+    let index = 2;
+
+    let task;
+
+    function loadImg() {
+        if (index === 4) index = 1;
+        $("#rotationChart-img").css("background-image", "url(../img/photo/" + index + ".jpg)");
+        index++;
+    }
+
+    $(function(){ //当页面加载时
+
+        task = setInterval("loadImg()" , 1000); //启动定时器
+
+        $("#rotationChart-img").mouseover(function(){ //鼠标经过
+            window.clearInterval(task);
+        });
+
+        $("#rotationChart-img").mouseout(function(){ //鼠标移出
+            task = setInterval("loadImg()", 1000);
+        })
+
+    })
+
+
+    /*以下为播放器界面***************/
+
+    $(function(){
+        $("#title-right-musicBtn").click(() => {
+            $("#play-panel").css('top' , '0%');
+        });
+
+
+        $("#control").click(() => {
+            $("#play-panel").css('top' , '100%');
+        });
+
+
+
+    })
+
+
+    /********************************************************************/
+    let songs = ["000qeAhg2Lj8sH" , "0033jdQI0aW9OX" , "003aAYrm3GE0Ac" , "001Qu4I30eVFYb"];
+
+    $(function(){
+
+        let task;
+
+        // 初始化播放组件
+        let player = new QMplayer({ target: "auto" });
+
+        // 监听事件
+        player.on("play", function () {
+
+            task = setInterval(function(){
+                let currentTime = Math.floor(player.currentTime/60)+":"+Math.ceil(player.currentTime%60);
+                let duration = Math.floor(player.duration/60)+":"+Math.floor(player.duration%60);
+                $("#current-time").html(currentTime);
+                $("#duration").html(duration);
+
+                let time_line_width = $("#time-line").width();
+                $("#point").css('left' ,  player.currentTime/player.duration * time_line_width - 4+"px" );
+
+            } , 500);
+
+            console.log(player.data);
+
+            $("#song").html(player.data.song.title);
+            $("#singer").html(player.data.songs[0].singer[0].name);
+
+            $("#album").css('background-image' , "url(http://imgcache.qq.com/music/photo/album_300/"+(player.data.song.album.id%100)+"/300_albumpic_"+player.data.song.album.id+"_0.jpg");
+
+        });
+
+        player.on("pause" , function() {
+            clearInterval(task);
+        });
+
+
+        $("#list-control-play").click(function(){
+            player.play("004GUrNi4LFtlV");
+            console.log("+++")
+
+        });
+
+        $("#list-control-pause").click(function(){
+            player.pause();
+        })
+    });
+
+</script>
