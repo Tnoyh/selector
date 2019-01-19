@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+
+        #container{
+            height: 1000px;
+            width:1300px;
+            background-color: lightblue;
+            margin: 0 auto;
+        }
+
+
+        #top{
+            height: 50px;
+            width: 100%;
+            background-color: #1976D2;
+        }
+        .top-left{
+            line-height: 50px;
+            background-color: #197688;
+            display: inline-block;
+            float: left;
+            color: white;
+        }
+        .top-right{
+            float: right;
+            line-height: 50px;
+        }
+
+
+        #text-search{
+            border-radius: 10px 10px 10px 10px;
+            color: darkgrey;
+            text-indent: 10px;
+        }
+        #text-button{
+            border-radius: 10px 10px 10px 10px;
+            color: white;
+            background-color: cyan;
+        }
+
+
+
+        #content{
+            background-color: #ffcdd2;
+            height: 1000px;
+            width: 800px;
+            margin: 0 auto;
+        }
+        #content-left{
+            height: 240px;
+            width: 180px;
+            background-color: #E64A19;
+            float: left;
+
+        }
+        #cont-left-img{
+            height:80px;
+            width: 100%;
+            background-color: #444444;
+
+        }
+        #cont-left-title{
+            height: 40px;
+            width:100%;
+            background-color: white;
+            text-align: center;
+            line-height: 40px;
+            color: #666666;
+        }
+        #cont-left-discribe{
+            height: 50px;
+            width: 100%;
+            background-color: #219688;
+            color: #666666;
+            text-align: center;
+            line-height: 20px;
+            font-size: 12px;
+            margin: 10px 0px 0px 0px;
+        }
+        #cont-left-bottom-fri{
+            height: 50px;
+            width:80px;
+            float: left;
+            color: #444444;
+            font-size: 14px;
+            background-color: #ffcdd2;
+            text-align: center;
+            line-height: 20px;
+        }
+        #cont-left-bottom-star{
+            height: 50px;
+            width:80px;
+            float: right;
+            color: #444444;
+            font-size: 14px;
+            background-color: #ffcdd2;
+            text-align: center;
+            line-height: 20px;
+        }
+
+
+
+        #content-center{
+            height:1000px;
+            width: 500px;
+            background-color:#bbbbbb;
+            margin: 0 auto;
+            float: left;
+        }
+        #cont-cent-border{
+            top:20px;
+            height: 100px;
+            width: 450px;
+            border-radius:10px 10px 10px 10px;
+            border: 2px solid #cccccc;
+            margin: 0 auto;
+        }
+        #cont-cent-cont{
+            height:60px;
+            width: 100%;
+            background-color: #219607;
+        }
+        #cont-cent-cont-left{
+            height: 25px;
+            width: 85%;
+            background-color: #219878;
+            float: left;
+            text-align: right;
+            line-height: 25px;
+            margin: 18px 0px 0px 0px;
+        }
+        #cont-cent-cont-right{
+            height: 25px;
+            width: 70px;
+            background-color: cadetblue;
+            float: right;
+            text-align: center;
+            line-height: 25px;
+            margin: 18px 0px 0px 0px;
+        }
+
+
+
+
+
+
+
+        #content-right{
+            height:140px;
+            width:120px;
+            background-color: #219688;
+            float: right;
+            color: darkgrey;
+            text-align: center;
+            line-height: 50px;
+            font-size: 14px;
+
+        }
+
+
+        #cont-cent-botm1-left{
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-color: #33ff16;
+            margin: 20px 0px 0px 20px;
+        }
+        #cont-cent-botm1-right{
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+
+
+        <div id="top">
+
+            <div class="top-left">
+                <a>Home</a>
+                <a>Profile</a>
+                <a>Message</a>
+                <a> Setting</a>
+            </div>
+
+            <div class="top-right">
+                  <input id="text-search"  type="text" value="Search...">
+                  <input id="text-button" type="button" value="search">
+            </div>
+        </div>
+
+
+
+
+        <div id="content">
+            <div id="content-left">
+                <div id="cont-left-img"></div>
+                <div id="cont-left-title">Neusoft</div>
+                <div id="cont-left-discribe">welcome to neusoft,learn java and h5 from neusoft</div>
+                <div id="cont-left-bottom">
+                    <div id="cont-left-bottom-fri">Friend<br>29</div>
+                    <div id="cont-left-bottom-star">Star<br>17</div>
+                </div>
+            </div>
+
+
+
+            <div id="content-center">
+
+                <div id="cont-cent-border"></div>
+                <div id="cont-cent-cont">
+                    <div id="cont-cent-cont-left">XX__XX__X_XX_XX_XX</div>
+                    <div id="cont-cent-cont-right">Send</div>
+                </div><hr>
+
+
+                <div id="cont-cent-botm1">
+                    <div id="cont-cent-botm1-left"></div>
+                    <div id="cont-cent-botm1-right"></div>
+                </div>
+                <div id="cont-cent-botm2">
+
+                </div>
+
+            </div>
+
+
+
+            <div id="content-right">...自由发挥吧...</div>
+        </div>
+    </div>
+</body>
+</html>

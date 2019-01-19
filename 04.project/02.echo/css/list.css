@@ -1,0 +1,131 @@
+#list{
+    height:120px;
+    background-color:white;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#list-left{
+    flex: 1;
+    background-color: #88d278;
+    margin: 10px;
+    border-radius: 5px;
+}
+#list-left-top{
+    height: 40px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+#list-left-top-left{
+    flex: 1;
+}
+/*红心电台*/
+#list-left-top-center{
+    flex: 2;
+    color: white;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+#list-left-top-right{
+    flex: 2;
+}
+
+
+
+
+
+#list-right{
+    flex: 2;
+    margin: 10px;
+
+
+
+}
+#list-right-top{
+
+    height: 45px;
+    background-color: cornflowerblue;
+    margin-bottom: 7px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+}
+#list-right-top-left{
+    flex: 1;
+}
+/*频道*/
+#list-right-top-center{
+    flex: 1;
+    color: white;
+    font-size: 14px;
+}
+#list-right-top-right{
+    flex: 1;
+}
+
+
+
+
+
+
+#list-right-bottom{
+
+    height: 45px;
+    background-color:white ;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+/*排行*/
+#list-right-btm-left{
+    flex: 1;
+    background-color: #FFC107;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
+#list-right-btm-center{
+    width: 20px;
+}
+/*铃声*/
+#list-right-btm-right{
+    flex: 1;
+    border-radius: 5px;
+    background-color: lightblue;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

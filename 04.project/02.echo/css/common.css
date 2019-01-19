@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 微软雅黑;
+}
+
+
+/*  底部menus 专门对超链接设置的特效    *********/
+a {
+    display: block;
+    height: 80px;
+    width: 80px;
+}
+
+.border {
+    border: red 1px solid;
+}
+
+.xy-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}

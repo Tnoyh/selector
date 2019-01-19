@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container{
+
+            height: 60px;
+            width: 60px;
+            background-color: #219688;
+            position: relative;
+            left: 300px;/*不管怎么改，子级元素会一直跟随着父级元素*/
+        }
+
+        .new-msg{
+
+            height:16px;
+            width:16px;
+
+            background-color: #e91e63;
+            position: absolute;/*子级元素对父级元素一定是绝对的*/
+
+            left: 55px;
+            top: -5px;
+
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="new-msg"></div>
+
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+
+
+
+#rotationChart-img{
+    height: 200px;
+    width: 100%;
+    /*border: 1px solid crimson;*/
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

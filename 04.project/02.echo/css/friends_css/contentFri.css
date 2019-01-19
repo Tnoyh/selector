@@ -1,0 +1,96 @@
+#contentFri{
+    flex: 1;
+    background-color:white;
+    overflow: scroll;
+
+
+
+
+
+}
+
+.contentFri-img{
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: 100px;
+
+
+}
+#contentFri-singer{
+
+    display: flex;
+
+    height: 100px;
+    background-color:white;;
+
+    justify-content: space-between;
+
+    margin-bottom: 10px;
+
+
+}
+
+
+#contentFri-singer-left{
+    width: 100px;
+    height: 100px;
+
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+    /*超过图片的隐藏*/
+    overflow: hidden;
+
+}
+
+
+
+#contentFri-singer-right{
+    flex: 1;
+    height: 100px;
+
+    display: flex;
+    justify-content:space-between;
+    flex-flow: column;
+
+    border-bottom:1px solid #aaaaaa;
+
+
+
+}
+
+/*图片的层撑开的高度*/
+#content-singerImg{
+    width: 100px;
+    height: 100px;
+
+
+}
+
+/*华晨宇*/
+#content-singerName{
+    height: 40px;
+    font-weight: bolder;
+}
+
+
+/*中间介绍区域*/
+#content-singerIntroduce{
+    flex: 1;
+    font-size: 10px;
+
+    overflow: scroll;
+}
+
+
+/*加入*/
+#content-singerJoin{
+    height: 40px;
+    color: #88d278;
+    font-size: 13px;
+    line-height: 40px;
+}

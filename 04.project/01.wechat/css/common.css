@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 微软雅黑;
+}
+
+.border{
+    border: 1px solid #E64A19;
+}
+
+.xy-center{                 /*信号signal区域提取出来的横纵中心对齐*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,391 @@
+#content{
+
+    flex: 1;
+
+    overflow: scroll;
+    background-color: white;
+}
+
+#content-block{
+    height: 240px;
+    background-color:white;
+    margin: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+
+
+/****第一块儿内容***********/
+#Electronic_music{
+
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+
+    border-top: 1px solid #aaaaaa;
+
+}
+/**** "纯粹电子乐" 左侧文字*/
+#music_text{
+    width: 80px;
+    line-height: 40px;
+    /*margin-left: 10px;*/
+    color: black;
+    font-weight: bolder;
+
+
+}
+/*  纯粹电子乐右边小标签 */
+#music_rightTag{
+
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    line-height: 9px;
+    background-color:#eeeeee;
+    color:#aaaaaa;
+
+    font-size: 11px;
+    font-weight: bolder;
+
+
+    margin-top: 11px;
+
+    text-align: center;
+
+
+}
+
+#music_nothing{
+
+    flex: 1;
+}
+
+/*************第二行内容 music_1 左边图片 右边文字 *********/
+
+#Electronic_music_1{
+
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+}
+
+
+/*第二行左侧图片*/
+#music_fadeimg{
+
+    margin-top: 5px;
+    /*margin-left: 9px;*/
+    width: 50px;
+    height: 48px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px;
+
+    border-radius: 3px;
+
+}
+
+#music_fade_text{
+
+    width: 300px;
+    color: #666666;
+    font-size: 13px;
+    line-height: 30px;
+
+    margin-left: 10px;
+}
+
+#music_fade_flex{
+    flex: 1;
+}
+
+
+/*************第三行内容 music_2 左边层 右边音乐 *********/
+
+#Electronic_music_2{
+
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+}
+
+
+/*第三行左侧图片*/
+#music_dillemmaimg{
+
+    margin-top: 5px;
+    /*margin-left: 9px;*/
+    width: 50px;
+    height: 48px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px;
+
+    border-radius: 3px;
+
+}
+
+#music_dillemma_text{
+
+    width: 300px;
+    color: #666666;
+    font-size: 13px;
+    line-height: 30px;
+
+    margin-left: 10px;
+}
+
+#music_dillemma_flex{
+    flex: 1;
+}
+
+
+/*************第四行内容 music_3 左边层 右边音乐 *********/
+
+#Electronic_music_3{
+
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+}
+
+
+/*第四行左侧图片*/
+#music_sugarimg{
+
+    margin-top: 5px;
+    /*margin-left: 9px;*/
+    width: 50px;
+    height: 48px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px;
+
+    border-radius: 3px;
+
+}
+
+#music_sugar_text{
+
+    width: 300px;
+    color: #666666;
+    font-size: 13px;
+    line-height: 30px;
+
+    margin-left: 10px;
+}
+
+#music_sugar_flex{
+    flex: 1;
+}
+
+
+
+/*********************第二块内容************************************/
+/*********************第二块内容************************************/
+/*********************第二块内容************************************/
+/*********************第二块内容************************************/
+/*********************第二块内容************************************/
+
+
+
+#Warmelec_music{
+
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+
+    border-top: 1px solid #aaaaaa;
+
+}
+/**** "暖力电磁场" 左侧文字*/
+#Warmelec_text{
+    width: 80px;
+    line-height: 40px;
+    margin-left: 10px;
+    color: black;
+    font-weight: bolder;
+
+
+}
+/*  暖力电磁场右边小标签 */
+#Warmelec_rightTag{
+
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    line-height: 9px;
+    background-color:#eeeeee;
+    color:#aaaaaa;
+
+    font-size: 11px;
+    font-weight: bolder;
+
+
+    margin-top: 15px;
+
+    text-align: center;
+
+
+}
+
+#Warmelec_nothing{
+
+    flex: 1;
+}
+
+/*************第二行内容 music_1 左边图片 右边文字 *********/
+
+#Warmelec_music_1{
+
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+}
+
+
+/*第二行左侧图片*/
+#music_myEyesimg{
+
+    margin-top: 5px;
+    margin-left: 9px;
+    width: 50px;
+    height: 48px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px;
+
+    border-radius: 3px;
+
+}
+
+#music_myEyes_text{
+
+    width: 300px;
+    color: #666666;
+    font-size: 13px;
+    line-height: 30px;
+
+    margin-left: 10px;
+}
+
+#music_myEyes_flex{
+    flex: 1;
+}
+
+
+/*************第三行内容 music_2 左边层 右边音乐 *********/
+
+#Warmelec_music_2{
+
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+}
+
+
+/*第三行左侧图片*/
+#music_crossimg{
+
+    margin-top: 5px;
+    margin-left: 9px;
+    width: 50px;
+    height: 48px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px;
+
+    border-radius: 3px;
+
+}
+
+#music_cross_text{
+
+    width: 300px;
+    color: #666666;
+    font-size: 13px;
+    line-height: 30px;
+
+    margin-left: 10px;
+}
+
+#music_cross_flex{
+    flex: 1;
+}
+
+
+/*************第四行内容 music_3 左边层 右边音乐 *********/
+
+#Warmelec_music_3{
+
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+}
+
+
+/*第四行左侧图片*/
+#music_cherryimg{
+
+    margin-top: 5px;
+    margin-left: 9px;
+    width: 50px;
+    height: 48px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px;
+
+    border-radius: 3px;
+
+}
+
+#music_cherry_text{
+
+    width: 300px;
+    color: #666666;
+    font-size: 13px;
+    line-height: 30px;
+
+    margin-left: 10px;
+}
+
+#music_cherry_flex{
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

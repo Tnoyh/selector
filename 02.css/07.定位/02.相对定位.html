@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+        }
+
+        #d1{
+            background-color: #E64A19;
+            position: relative;
+            left: 50px;
+            top: 50px;
+            z-index: 1;
+        }
+
+        #d2{
+            background-color: #219688;
+            position: relative;
+            z-index: 1;
+        }
+
+        #d3{
+            background-color: #2196F3;
+            position: relative;
+            z-index: -1;
+            top: -50px;
+            left: -50px;/*相对定位实际上她的位置没有发生变化，只是暂时挪动了位置*/
+        }
+    </style>
+</head>
+<body>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d3"></div>
+</body>
+</html>

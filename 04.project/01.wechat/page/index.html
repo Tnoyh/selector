@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wechat</title>
+
+    <!--viewpor 百度搜索 专门适配手机屏幕  不压缩尺寸-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href="../css/common.css" rel="stylesheet">
+    <link href="../css/container.css" rel="stylesheet">
+    <link href="../css/signal.css" rel="stylesheet">
+    <link href="../css/title.css" rel="stylesheet">
+    <link href="../css/dynamic.css" rel="stylesheet">
+    <link href="../css/menus.css" rel="stylesheet">
+</head>
+<body>
+
+
+   <div id="container">   <!--最大的用一个层来包括-->
+
+       <!--信号层 signal start -->
+       <div id="signal" class="">   <!--左侧信号部分-->
+
+           <div id="signal_left" class="">
+               <div id="signal_area" class="">  <!--信号的四条竖杠-->
+                   <div class="signal_ok"></div>
+                   <div class="signal_ok"></div>
+                   <div class="signal_ok"></div>
+                   <div class="signal_lose"></div>
+               </div>
+
+
+               <div id="operation" class="">中国移动</div>   <!--运营商-->
+               <div id="4G" class="xy-center">4G</div>   <!--中国移动和4g都用到了这个属性，表明xy-center是提炼出来的-->
+           </div>
+
+
+
+           <div id="signal_center" class="xy-center">13:13</div>   <!--中间时间区域-->
+
+
+
+
+           <div id="signal_right">      <!--右侧电池区域-->
+               <div id="battery_area" class="">
+                   <div id="battery_body" class="">     <!--电池body里又包含了电池容量-->
+                       <div id="battery_core" class=""></div>
+                   </div>
+                   <div id="battery_header" class=""></div>     <!--电池最右侧的头部-->
+               </div>
+
+
+
+           </div>
+
+       </div>
+
+
+       <!--信号层 signal end。。。 -->
+
+
+
+
+
+
+
+       <div id="title">   <!--标题提示，扫码添加好友区域-->
+
+           <div id="title_left" class="xy-center">&lt;</div>   <!--返回的小箭头符号-->
+           <div id="title_center" class="xy-center ">18级东软睿道实训</div>    <!--中间正标题-->
+
+           <div id="title_right" class="xy-center ">     <!--右侧➕符号 -->
+               <div id="title_menu"></div>
+           </div>
+
+       </div>
+
+       <div id="dynamic">     <!--中间文本聊天区域-->
+
+           <div id="search_area" class="xy-center">
+
+               <div id="search" class="xy-center">
+
+                   <div class=" search_icon">🔍</div>
+                   <div class=" xy-center">搜索</div>
+
+               </div>
+
+           </div>
+<!-- ***************************以下是聊天区域*************************************-->
+           <div id="chat_list">
+
+               <div class="chat ">
+
+                   <div class="chat-img" style="background-image: url(../img/photo/xiangning.png)"></div>
+                   <div class="chat-main chat_line">
+
+                       <div class="chat-main-up ">
+
+                           <div class="chat-nickname ">香凝</div>
+
+                           <div class="chat-time ">1分钟前</div>
+                       </div>
+
+                       <div class="chat-main-down">
+
+                           <div class="chat-content">我们八点以后就是温水了</div>
+                           <div class="mute">🔔</div>
+                       </div>
+
+                   </div>
+
+               </div>
+
+
+               <div class="chat ">
+
+                   <div class="chat-img" style="background-image: url(../img/photo/noyh.png)"></div>
+                   <div class="chat-main chat_line">
+
+                       <div class="chat-main-up ">
+
+                           <div class="chat-nickname ">noyh</div>
+
+                           <div class="chat-time ">2分钟前</div>
+                       </div>
+
+                       <div class="chat-main-down">
+
+                           <div class="chat-content">最近做实训项目好累啊～</div>
+                           <div class="mute">🔔</div>
+                       </div>
+
+                   </div>
+
+               </div>
+
+
+
+               <div class="chat ">
+
+                   <div class="chat-img" style="background-image: url(../img/photo/yijie.png)"></div>
+                   <div class="chat-main chat_line">
+
+                       <div class="chat-main-up ">
+
+                           <div class="chat-nickname ">一洁</div>
+
+                           <div class="chat-time ">3分钟前</div>
+                       </div>
+
+                       <div class="chat-main-down">
+
+                           <div class="chat-content">下课了咱们一块去吃饭吧，好饿呀。</div>
+                           <div class="mute">🔔</div>
+                       </div>
+
+                   </div>
+
+               </div>
+
+
+               <div class="chat ">
+
+                   <div class="chat-img" style="background-image: url(../img/photo/yongge.png)"></div>
+                   <div class="chat-main chat_line">
+
+                       <div class="chat-main-up ">
+
+                           <div class="chat-nickname ">勇哥</div>
+
+                           <div class="chat-time ">15分钟前</div>
+                       </div>
+
+                       <div class="chat-main-down">
+
+                           <div class="chat-content">在寝室吗？帮我到楼下取一下快递。</div>
+                           <div class="mute">🔔</div>
+                       </div>
+
+                   </div>
+
+               </div>
+
+
+
+
+
+           </div>
+
+
+       </div>
+
+
+
+
+       <!--最下方的四个小图标按钮-->
+       <div id="menus" class="">
+
+           <div class="menus_flex">
+               <div class=" menus_img" style="background-image: url(../img/icon/menu/chat-press.svg)"></div>
+               <div id="menus_text" class="">会话</div>
+           </div>
+
+           <div class="menus_flex">
+               <div class=" menus_img" style="background-image: url(../img/icon/menu/contact.svg)"></div>
+               <div id="menus_text" class="">联系人</div>
+           </div>
+
+           <div class="menus_flex">
+               <div class=" menus_img" style="background-image: url(../img/icon/menu/discover.svg)"></div>
+               <div id="menus_text" class="">发现</div>
+           </div>
+
+           <div class="menus_flex">
+               <div class=" menus_img" style="background-image: url(../img/icon/menu/me.svg)"></div>
+               <div id="menus_text" class="">我</div>
+           </div>
+
+
+
+
+       
+       </div>      
+
+   </div>
+
+
+</body>
+</html>
+
+<script src="../js/frame/jquery.js"></script>
+
+<script>
+
+    $(function(){
+
+        $("#title_right").click(function(){
+
+            $("#title_menu").toggle(400);
+
+        })
+
+    })
+
+</script>

@@ -1,0 +1,54 @@
+#occupationList {
+    height: 120px;
+    background-color:white;
+
+    display: inline-block;
+
+
+
+    color: #666666;
+    font-size: 12px;
+    text-align: center;
+
+    border-bottom: 1px solid #aaaaaa;
+    border-top: 1px solid #aaaaaa;
+
+
+    margin-bottom: 10px;
+
+}
+
+
+/*总高度120 一个大概一半 一半的上方图片占40px 文字占15px 加上一个margin-btm 10px 因为有重复的 所以下方统一用一个样式就行 */
+
+
+#occupaList-top{
+    display: flex;
+
+}
+
+#occupaList-btm{
+    display: flex;
+
+
+}
+
+.occupation-flex{
+    flex: 1;
+}
+
+
+
+.occupation-size-img{
+    height: 40px;
+
+    background-size: 27px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.occupation-size-text{
+    height: 15px;
+}

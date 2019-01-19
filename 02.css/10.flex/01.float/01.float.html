@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        #container{
+            /*height: 200px;*/
+            /*width: 400px;*/
+
+            border: 1px solid red;
+        }
+
+        .f{
+            height: 100px;
+            width: 100px;
+
+            float:left;
+            opacity: .5;
+        }
+
+        #d1{
+            background-color: #1976D2;
+        }
+
+        #d2{
+            background-color: #ffcdd2;
+        }
+
+        #d3{
+            background-color: #21a3;
+            height: 150px;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+   <div id="container">
+       <div id="d1" class="f"></div>
+       <div id="d2" class="f"></div>
+
+
+       <!--<div id="d3"></div>-->  <!--加入d3是为了对比d1 d2-->
+
+       <br clear="both">  <!--d1 d2浮动元素实际上是撑不开东西的 加入br这个属性后会把实际占多少像素展示出来-->
+   </div>
+</body>
+</html>

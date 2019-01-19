@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flexT</title>
+
+    <style>
+        #container{
+            height: 230px;
+            width: 70%;
+            border: 1px solid red;
+
+            display: flex;  /*随着屏幕的挤压三个层变得有弹性 默认是row属性*/
+            flex-flow: row nowrap;
+            /*flex-flow: row-reverse nowrap;*/
+            /*flex-flow: column-reverse wrap;*/
+        }
+
+        .f{
+            height: 100px;
+            width: 200px;
+            color: white;
+        }
+
+        #d1{
+            background-color: #2196F3;
+        }
+
+        #d2{
+            background-color: #219688;
+        }
+        #d3{
+            background-color: #E64A19;
+        }
+    </style>
+</head>
+<body>
+   <div id="container">
+
+       <div class="f" id="d1">d1</div>
+       <div class="f" id="d2">d2</div>
+       <div class="f" id="d3">d3</div>
+   </div>
+</body>
+</html>

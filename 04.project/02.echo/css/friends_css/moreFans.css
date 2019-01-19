@@ -1,0 +1,37 @@
+#moreFans{
+    height: 40px;
+    background-color:white;
+
+    display: flex;
+
+    text-align: center;
+    line-height: 40px;
+
+
+
+}
+
+
+#moreFans-left{
+    width: 110px;
+
+    font-size: 16px;
+
+    margin-left: 10px;
+}
+
+
+#moreFans-center{
+    flex: 1;
+
+
+}
+
+
+#moreFans-right{
+    width: 60px;
+
+    color: #666666;
+
+    font-size: 14px;
+}

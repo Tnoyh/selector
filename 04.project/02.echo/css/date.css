@@ -1,0 +1,64 @@
+#date{
+    height: 40px;
+    background-color:white;
+
+    display:flex;
+    justify-content: space-between;
+}
+/*左侧TODAY*/
+#date-left{
+    height: 40px;
+    width: 70px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+/*以下为 today 三部分的样式*/
+#date-left-t{
+    height: 40px;
+    width: 10px;
+    margin-left: 10px;
+}
+
+#data-left-circle{
+    height: 15px;
+    width: 19px;
+    border-radius: 50%;
+    background-color: #219878;
+    /*以下针对"小于号"箭头标记*/
+    margin-top: 13px;
+    line-height: 12px;
+    text-align: center;
+    color: white;
+    font-size: 7px;
+
+}
+#date-left-day{
+    height: 40px;
+    width: 40px;
+}
+
+
+/*  today 引用的字体样式 因为t和day分开了的*/
+.date-left-today{
+
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+#date-center{
+    flex: 1;
+}
+/*右侧音乐签这几个字*/
+#date-right{
+    width: 70px;
+    color: #bbbbbb;
+    font-size: 10px;
+}

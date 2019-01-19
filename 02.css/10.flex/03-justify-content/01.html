@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex-justify-content</title>
+
+    <style>
+        #container{
+            height: 230px;
+            width: 70%;
+            border: 1px solid red;
+
+            display: flex;  /*随着屏幕的挤压三个层变得有弹性 默认是row属性*/
+            flex-flow: row nowrap;
+            justify-content: center;
+            /*justify-content: space-between;*/   /*平分空间*/
+        }
+
+        .f{
+            height: 100px;
+            width: 200px;
+            color: white;
+        }
+
+        #d1{
+            background-color: #2196F3;
+            flex: 1;             /*随着1：2：1的比例进行挤压*/
+        }
+
+        #d2{
+            background-color: #219688;
+            flex: 2;   /*如果把此注释掉换成width属性 则中间这个层宽度不变，受挤压也不变*/
+        }
+        #d3{
+            background-color: #E64A19;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+
+    <div class="f" id="d1">d1</div>
+    <div class="f" id="d2">d2</div>
+    <div class="f" id="d3">d3</div>
+</div>
+</body>
+</html>

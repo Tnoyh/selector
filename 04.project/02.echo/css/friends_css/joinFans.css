@@ -1,0 +1,28 @@
+#joinFans {
+    height: 50px;
+    background-color:white;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+
+
+}
+
+
+.joinFans-flex {
+    flex: 1;
+}
+
+
+#joinFans-Ijoin{
+    border-bottom: 3px solid #88d278;
+}
+
+#joinFans-Findfans{
+    /*border-bottom: 3px solid #88d278;*/
+}
+
+
+

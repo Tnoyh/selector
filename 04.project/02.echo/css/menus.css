@@ -1,0 +1,31 @@
+#menus{
+    height: 50px;
+    background-color:white;
+
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px #cccccc solid;
+}
+
+.menus_img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.menus-flex{
+    flex: 1;
+}
+
+#menus-plus{
+    background-color: #88d278;
+}
+
+
+#menus-ear{
+
+    height: 50px;
+    width: 50px;
+}
+
+
+

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>echo</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href="../css/common.css" rel="stylesheet">
+    <link href="../css/container.css" rel="stylesheet">
+    <link href="../css/content.css" rel="stylesheet">
+    <link href="../css/title.css" rel="stylesheet">
+    <link href="../css/date.css" rel="stylesheet">
+    <link href="../css/menus.css" rel="stylesheet">
+    <link href="../css/list.css" rel="stylesheet">
+    <link href="../css/status.css" rel="stylesheet">
+
+
+    <link href="../css/player.css" rel="stylesheet">
+
+
+</head>
+<body>
+     <div id="container">
+
+
+         <!--手机最顶部状态栏-->
+         <div id="status">
+
+             <!-- 信号层 : start -->
+             <div id="signal" class="">
+
+                 <div id="signal_left" class="">
+
+                     <div id="signal_area" class="">
+                         <div class="signal-ok "></div>
+                         <div class="signal-ok "></div>
+                         <div class="signal-ok "></div>
+                         <div class="signal-lose "></div>
+                     </div>
+                     <div id="operation" class="xy-center ">中国移动</div>
+                     <div id="xg" class="xy-center">4G</div>
+
+                <!--状态栏最中间时间-->
+                 </div>
+                 <div id="signal_center" class="xy-center">12:08</div>
+                 <!--状态栏右侧电池-->
+                 <div id="signal_right" class="">
+
+                     <div id="battery_area" class="">
+
+                         <div id="battery_body" class="">
+                             <div id="battery_core" class=""></div>
+                         </div>
+                         <div id="battery_header" class=""></div>
+
+                     </div>
+
+                 </div>
+
+             </div>
+             <!-- 信号层 : end -->
+
+         </div>
+
+        <!--************************       以下是title层  *********************-->
+
+
+        <!--************************       包含音乐模块  *********************-->
+
+
+
+
+         <div id="title" class="">
+              <!--左侧会话气泡-->
+                  <div id="title-flex" class="">
+
+                  <div id="title-left" class=""  style="background-image:url(../img/icon/会话.svg)"></div>
+              </div>
+
+              <!--中间logo-->
+                  <div id="title-flex" class="" >
+
+                  <div id="title-center" class="" style="background-image: url(../img/icon/echoLogo.png)"></div>
+              </div>
+
+              <!--右侧搜索🔍和播放器按钮-->
+
+              <div id="title-flex" class=" xy-center">
+                  <!--把右侧分成了三个部分，nothing只是felx为1，放大镜和播放按钮占据一定的尺寸-->
+                  <div id="title_right-nothing" class=""></div>
+                  <div id="title-right—Magnifier" class="">🔍</div>
+                  <div id="title-right-musicBtn"  class="" style="background-image: url(../img/icon/music.svg)"></div>
+
+              </div>
+             <!--**************    以下为播放器界面   **************************-->
+             <!--**************    以下为播放器界面   **************************-->
+             <!--**************    以下为播放器界面   **************************-->
+
+             <div id="play-panel">
+
+                 <!--最顶部挤空间的-->
+                 <div id="panel-1" class=""></div>
+
+                 <!--返回按钮-->
+                 <div id="panel-back" class="">
+
+                     <div id="control" class="">&or;</div>
+
+
+                     <div id="control-1" class=""></div>
+                 </div>
+
+                 <!--专辑图片展示-->
+                 <div id="panel-img" class="" style="background-image: url(../img/photo/froot.png)"></div>
+
+                 <!--播放列表 前进、后退-->
+                 <div id="panel-list" class="">
+
+                     <!--歌名-->
+                     <div id="list-songName">Froot</div>
+
+
+                     <!--歌手-->
+                     <div id="list-singer">Marina And The Diamonds</div>
+
+
+                     <!--播放、暂停、前进后退-->
+                     <div id="list-control" class="">
+
+                         <div id="list-control-1" class="list-control-flex "></div>
+                         <div id="list-control-play" class="list-control " style="background-image: url(../img/icon/play.svg)"></div>
+                         <div id="list-control-pause" class="list-control " style="background-image: url(../img/icon/pause.svg)"></div>
+                         <div id="list-control-pre" class="list-control " style="background-image: url(../img/icon/pre.svg)"></div>
+                         <div id="list-control-next" class="list-control " style="background-image: url(../img/icon/next.svg)"></div>
+                         <div id="list-control-6" class="list-control-flex "></div>
+                     </div>
+
+
+                     <!--进度条-->
+                     <div id="list-progressBar" class="">
+
+                         <!--开始时间-->
+                         <div id="current-time" class="">00:00</div>
+
+                         <!--进度条-->
+                         <div id="time-line" class="">
+
+                             <!--白点-->
+                             <div id="point" class=""></div>
+                         </div>
+
+                         <!--截止时间-->
+                         <div id="duration" class="">00:00</div>
+                     </div>
+
+
+
+                     <!--随机播放、顺序播放等  *******-->
+                     <div id="list-menus" class="">
+
+                         <div id="menus-random" style="background-image: url(../img/icon/随机播放.svg)"></div>
+                         <div id="menus-one" style="background-image: url(../img/icon/单曲循环.svg)"></div>
+                         <div id="menus-order" style="background-image: url(../img/icon/顺序播放.svg)"></div>
+                         <div id="menus-more" style="background-image: url(../img/icon/更多.svg)"></div>
+                     </div>
+                 </div>
+
+
+
+
+
+
+
+
+
+             </div>
+
+
+
+
+
+         </div>
+
+
+
+
+
+        <!--*************************   以下中上部分为频道、电台、排行  *****************************-->
+         <div id="list" class="">
+
+             <div id="list-left" class="">
+
+
+                 <div id="list-left-top" class="">
+                     <!--因为实现弹性布局，所以左右给两个空的层撑开空间 flex  1：1：2  -->
+                     <div id="list-left-top-left"></div>
+                     <div id="list-left-top-center" class="xy-center ">电台</div>
+                     <div id="list-left-top-right"></div>
+
+                 </div>
+                 <div id="list-left-bottom" class=""></div>
+
+             </div>
+
+
+             <div id="list-right" class="">
+                 <div id="list-right-top" class="">
+                     <div id="list-right-top-left" class=""></div>
+                     <div id="list-right-top-center" class=" xy-center">频道</div>
+                     <div id="list-right-top-right" class=""></div>
+
+
+                 </div>
+
+
+                 <div id="list-right-bottom" class="">
+                     <div id="list-right-btm-left" class=" xy-center">排行</div>
+                     <div id="list-right-btm-center" class=" xy-center"></div>
+                     <div id="list-right-btm-right" class=" xy-center">铃声</div>
+                 </div>
+
+             </div>
+
+         </div>
+
+
+
+         <!--*********************************以下为选择日期*****************************-->
+
+         <div id="date" class=" ">
+             <!--左侧  TODAY字样-->
+             <div id="date-left" class="">
+                 <div id="date-left-t" class=" date-left-today xy-center ">T</div>
+                 <div id="data-left-circle" class="">&lt;</div>
+                 <div id="date-left-day" class="date-left-today xy-center ">DAY</div>
+             </div>
+
+             <div id="date-center" class=""></div>
+
+             <!--右侧 音乐签-->
+             <div id="date-right" class=" xy-center">🏷️音乐签</div>
+
+         </div>
+
+
+
+
+
+         <!--*********************************以下为音乐模块*****************************-->
+         <div id="content">
+                <div id="content-block">
+
+                    <!--****纯粹电子乐******-->
+                    <!--****纯粹电子乐******-->
+                    <div id="Electronic_music" class="">
+
+                        <div id="music_text" class=" xy-center">纯粹电子乐</div>
+                        <div id="music_rightTag" class=" ">&gt;</div>
+                        <div id="music_nothing" class=""></div>
+
+                    </div>
+                    <!--  此层又分为三层 左边图片 右边简介 简介又分为上下两层    -->
+                    <div id="Electronic_music_1" class="">
+
+                        <div id="music_fadeimg" class="" style="background-image: url(../img/photo/fade.png)"></div>
+
+                        <div id="music_fade_text" class="">北欧浩室舞曲神童Alan Walker代表作 Fade</div>
+                        <div id="music_fade_flex" class=""></div>
+
+                    </div>
+
+
+                    <div id="Electronic_music_2" class="">
+
+                        <div id="music_dillemmaimg" style="background-image: url(../img/photo/DILEMMA.png)"></div>
+
+                        <div id="music_dillemma_text">节奏控 35秒后跌宕起伏 MY DILEMMA</div>
+                        <div id="music_dillemma_flex"></div>
+
+                    </div>
+
+
+                    <div id="Electronic_music_3" class="">
+
+                        <div id="music_sugarimg" style="background-image: url(../img/photo/sugar.png)"></div>
+
+                        <div id="music_sugar_text">Sugar 全球最性感男人＂魔力红"</div>
+
+                        <div id="music_sugar_flex"></div>
+
+                    </div>
+                </div>
+
+
+             <div id="content-block2">
+
+                 <!--****暖力电磁场******-->
+                 <!--****暖力电磁场******-->
+                 <div id="Warmelec_music" class="">
+
+                     <div id="Warmelec_text" class=" xy-center">暖力电磁场</div>
+                     <div id="Warmelec_rightTag" class=" ">&gt;</div>
+                     <div id="Warmelec_nothing" class=""></div>
+
+                 </div>
+                 <!--  此层又分为三层 左边图片 右边简介 简介又分为上下两层    -->
+                 <!--第一首歌-->
+                 <div id="Warmelec_music_1" class="">
+
+                     <div id="music_myEyesimg" class="" style="background-image: url(../img/photo/myEyes.png)"></div>
+
+                     <div id="music_myEyes_text" class="">小sa神ukulele弹唱 Can't Take My Eyes Off You</div>
+                     <div id="music_myEyes_flex" class=""></div>
+
+                 </div>
+
+
+                 <!--第二首歌-->
+                 <div id="Warmelec_music_2" class="">
+
+                     <div id="music_crossimg" style="background-image: url(../img/photo/crossBurning.png)"></div>
+
+                     <div id="music_cross_text">果断爱上50分钟欧美音乐串烧</div>
+                     <div id="music_cross_flex"></div>
+
+                 </div>
+
+
+                 <!--第三首歌-->
+                 <div id="Warmelec_music_3" class="">
+
+                     <div id="music_cherryimg" style="background-image: url(../img/photo/cherryBlossoms.png)"></div>
+
+                     <div id="music_cherry_text">左耳芙蕖右耳樱花 未闻花名</div>
+
+                     <div id="music_cherry_flex"></div>
+
+                 </div>
+             </div>
+
+
+
+         </div>
+
+
+
+
+         <!--*********************************以下为底部菜单*****************************-->
+         <div id="menus" class="">
+
+             <div id="menus-ear"      class="menus_img menus-flex " style="background-image: url(../img/icon/ear.svg)"><a href="index.html"></a></div>
+             <div id="menus-friends"  class="menus_img menus-flex " style="background-image: url(../img/icon/friends.svg)"><a href="friends.html"></a></div>
+             <div id="menus-plus"     class="menus_img menus-flex " style="background-image: url(../img/icon/plus.svg)"></div>
+             <div id="menus-find"     class="menus_img menus-flex " style="background-image: url(../img/icon/find.svg)"></div>
+             <div id="menus-me"       class="menus_img menus-flex " style="background-image: url(../img/icon/me.svg)"><a href="me.html"></a></div>
+
+
+         </div>
+
+
+
+     </div>
+</body>
+</html>
+
+
+<script src="../../../resources/js/jquery/jquery.js"></script>
+
+
+<script src="http://y.gtimg.cn/music/h5/player/player.js?max_age=2592000"></script>
+
+
+<script>
+
+
+    $(function(){
+        $("#title-right-musicBtn").click(() => {
+            $("#play-panel").css('top' , '0%');
+        });
+
+
+        $("#control").click(() => {
+            $("#play-panel").css('top' , '100%');
+        });
+
+
+
+    })
+
+
+    /********************************************************************/
+    let songs = ["000qeAhg2Lj8sH" , "0033jdQI0aW9OX" , "003aAYrm3GE0Ac" , "001Qu4I30eVFYb"];
+
+    $(function(){
+
+        let task;
+
+        // 初始化播放组件
+        let player = new QMplayer({ target: "auto" });
+
+        // 监听事件
+        player.on("play", function () {
+
+            task = setInterval(function(){
+                let currentTime = Math.floor(player.currentTime/60)+":"+Math.ceil(player.currentTime%60);
+                let duration = Math.floor(player.duration/60)+":"+Math.floor(player.duration%60);
+                $("#current-time").html(currentTime);
+                $("#duration").html(duration);
+
+                let time_line_width = $("#time-line").width();
+                $("#point").css('left' ,  player.currentTime/player.duration * time_line_width - 4+"px" );
+
+            } , 500);
+
+            console.log(player.data);
+
+            $("#song").html(player.data.song.title);
+            $("#singer").html(player.data.songs[0].singer[0].name);
+
+            $("#album").css('background-image' , "url(http://imgcache.qq.com/music/photo/album_300/"+(player.data.song.album.id%100)+"/300_albumpic_"+player.data.song.album.id+"_0.jpg");
+
+        });
+
+        player.on("pause" , function() {
+            clearInterval(task);
+        });
+
+
+        $("#list-control-play").click(function(){
+            player.play("004GUrNi4LFtlV");
+            console.log("+++")
+
+        });
+
+        $("#list-control-pause").click(function(){
+            player.pause();
+        })
+    });
+
+
+
+
+</script>

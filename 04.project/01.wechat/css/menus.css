@@ -1,0 +1,29 @@
+#menus{
+    height: 56px;
+    background-color:white;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menus_flex{
+    flex: 1;
+}
+
+.menus_img{
+    height: 36px;
+
+    background-repeat: no-repeat;
+    background-size:25px;
+    background-position: center;
+}
+#menus_text{
+
+    height: 20px;
+    font-size: 3px;
+    color: #212121;
+    text-align: center;
+}
+
+

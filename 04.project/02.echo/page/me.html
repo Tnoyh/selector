@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>me</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href="../css/common.css"                     rel="stylesheet">
+    <link href="../css/container.css"                  rel="stylesheet">
+    <link href="../css/menus.css"                      rel="stylesheet">
+    <link href="../css/status.css"                     rel="stylesheet">
+    <link href="../css/player.css"                     rel="stylesheet">
+
+
+    <link href="../css/me_css/contentMe.css"       rel="stylesheet">
+    <link href="../css/me_css/function.css"       rel="stylesheet">
+    <link href="../css/me_css/Ilike.css" rel="stylesheet">
+    <link href="../css/me_css/showMe.css"  rel="stylesheet">
+    <link href="../css/me_css/titleMe.css"       rel="stylesheet">
+
+</head>
+<body>
+
+
+<div id="container">
+
+
+    <!--手机最顶部状态栏-->
+    <div  class="" id="status">
+
+        <!-- 信号层 : start -->
+        <div id="signal" class="">
+
+            <div id="signal_left" class="">
+
+                <div id="signal_area" class="">
+                    <div class="signal-ok "></div>
+                    <div class="signal-ok "></div>
+                    <div class="signal-ok "></div>
+                    <div class="signal-lose "></div>
+                </div>
+                <div id="operation" class="xy-center ">中国移动</div>
+                <div id="xg" class="xy-center">4G</div>
+
+                <!--状态栏最中间时间-->
+            </div>
+            <div id="signal_center" class="xy-center">12:08</div>
+            <!--状态栏右侧电池-->
+            <div id="signal_right" class="">
+
+                <div id="battery_area" class="">
+
+                    <div id="battery_body" class="">
+                        <div id="battery_core" class=""></div>
+                    </div>
+                    <div id="battery_header" class=""></div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- 信号层 : end -->
+    </div>
+
+
+    <!--************************       以下是titleMe层  *********************-->
+
+
+
+    <div id="titleMe" class="">
+
+
+        <!--左侧会话气泡-->
+        <div id="title-flex" class="">
+
+            <div id="title-left" class=""  style="background-image:url(../img/icon/会话.svg)"></div>
+        </div>
+
+        <!--中间  粉丝群 三个字-->
+        <div id="title-center" class="" >我的
+
+
+        </div>
+
+        <!--右侧搜索🔍和播放器按钮-->
+
+        <div id="title-flex" class=" xy-center ">
+            <!--把右侧分成了三个部分，nothing只是felx为1，放大镜和播放按钮占据一定的尺寸-->
+            <div id="title_right-nothing" class=""></div>
+            <div id="title-right—Magnifier" class="">🔍</div>
+            <div id="title-right-musicBtn"  class="" style="background-image: url(../img/icon/music.svg)"></div>
+        </div>
+
+
+        <!--**************    以下为播放器界面   **************************-->
+        <!--**************    以下为播放器界面   **************************-->
+        <!--**************    以下为播放器界面   **************************-->
+
+        <div id="play-panel">
+
+            <!--最顶部挤空间的-->
+            <div id="panel-1" class=""></div>
+
+            <!--返回按钮-->
+            <div id="panel-back" class="">
+
+                <div id="control" class="">&or;</div>
+
+
+                <div id="control-1" class=""></div>
+            </div>
+
+            <!--专辑图片展示-->
+            <div id="panel-img" class="" style="background-image: url(../img/photo/froot.png)"></div>
+
+            <!--播放列表 前进、后退-->
+            <div id="panel-list" class="">
+
+                <!--歌名-->
+                <div id="list-songName">Froot</div>
+
+
+                <!--歌手-->
+                <div id="list-singer">Marina And The Diamonds</div>
+
+
+                <!--播放、暂停、前进后退-->
+                <div id="list-control" class="">
+
+                    <div id="list-control-1" class="list-control-flex "></div>
+                    <div id="list-control-play" class="list-control " style="background-image: url(../img/icon/play.svg)"></div>
+                    <div id="list-control-pause" class="list-control " style="background-image: url(../img/icon/pause.svg)"></div>
+                    <div id="list-control-pre" class="list-control " style="background-image: url(../img/icon/pre.svg)"></div>
+                    <div id="list-control-next" class="list-control " style="background-image: url(../img/icon/next.svg)"></div>
+                    <div id="list-control-6" class="list-control-flex "></div>
+                </div>
+
+
+                <!--进度条-->
+                <div id="list-progressBar" class="">
+
+                    <!--开始时间-->
+                    <div id="current-time" class="">00:00</div>
+
+                    <!--进度条-->
+                    <div id="time-line" class="">
+
+                        <!--白点-->
+                        <div id="point" class=""></div>
+                    </div>
+
+                    <!--截止时间-->
+                    <div id="duration" class="">00:00</div>
+                </div>
+
+
+
+                <!--随机播放、顺序播放等  *******-->
+                <div id="list-menus" class="">
+
+                    <div id="menus-random" style="background-image: url(../img/icon/随机播放.svg)"></div>
+                    <div id="menus-one" style="background-image: url(../img/icon/单曲循环.svg)"></div>
+                    <div id="menus-order" style="background-image: url(../img/icon/顺序播放.svg)"></div>
+                    <div id="menus-more" style="background-image: url(../img/icon/更多.svg)"></div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!--************************       以下是showMe层  *********************-->
+
+    <div id="showMe" class=" ">
+
+
+        <div id="showMe-left" class=" xy-center">
+            <div id="showMe-left-img" class=" " style="background-image: url(../img/photo/头像.png)">
+            </div>
+        </div>
+
+
+        <div id="showMe-center" class="">
+
+            <div id="showMe-center1" class="showMe-center-flex "></div>
+            <div id="showMe-center-top" class="showMe-center-flex ">TnoyhMan</div>
+            <div id="showMe-center-center" class="showMe-center-flex ">500人访问过我的主页</div>
+            <div id="showMe-center-btm" class="showMe-center-flex ">echo ID:8839303</div>
+            <div id="showMe-center5" class="showMe-center-flex "></div>
+
+
+        </div>
+
+        <!--把showme分为四个部分 --nothing是为了撑开空间的-->
+        <div id="showMe-nothing"></div>
+
+
+        <div id="showMe-right" class="">
+
+
+            <!--多两个空层撑开空间-->
+            <div id="showMe-right-1" class="showMe-center-flex"></div>
+
+            <div id="showMe-right-personal" class="showMe-center-flex xy-center">个人主页&gt;</div>
+
+            <div id="showMe-right-3" class="showMe-center-flex"></div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <!--************************       以下是I like层  *********************-->
+
+
+    <div id="Ilike" class="">
+
+
+        <!--我喜欢的-->
+        <div id="Ilike-left" class=" Ilike-flex">
+
+            <div id="ilike-left-num" class="ilike-num ">23</div>
+
+
+            <div id="ilike-left-text" class="ilike-text ">我喜欢的</div>
+
+
+        </div>
+
+
+        <!--离线回声-->
+        <div id="Ilike-center" class=" Ilike-flex">
+
+            <div id="ilike-center-num" class="ilike-num">9</div>
+
+
+            <div id="ilike-center-text" class="ilike-text">离线回声</div>
+
+
+        </div>
+
+
+        <!--我关注的频道-->
+        <div id="Ilike-right" class=" Ilike-flex">
+
+            <div id="ilike-right-num" class="ilike-num">15</div>
+            <div id="ilike-right-text" class="ilike-text">我关注的频道</div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <!--************************       以下是function层  *********************-->
+
+
+    <div id="function" class="">
+
+        <!--功能区的上部分-->
+        <div id="function-top" class="">
+
+            <!--会员中心-->
+            <div id="HuiYuanZhongXin" class=" function-flex">
+
+                <div id="function-top-img" class="function-img " style="background-image: url(../img/icon/会员中心.svg)"></div>
+                <div id="function-top-text" class="function-text">会员中心</div>
+            </div>
+
+            <!--听歌免流量-->
+            <div id="TingGeMianLiuLiang"class=" function-flex">
+
+                <div id="function-top-img" class="function-img" style="background-image: url(../img/icon/听歌免流量.svg)"></div>
+                <div id="function-top-text" class="function-text">听歌免流量</div>
+            </div>
+
+
+            <!--我的回声-->
+            <div id="WoDeHuiSheng" class=" function-flex">
+
+                <div id="function-top-img" class="function-img" style="background-image: url(../img/icon/我的回声.svg)"></div>
+                <div id="function-top-text" class="function-text">我的回声</div>
+            </div>
+
+
+            <!--我的钱包-->
+            <div id="WoDeQianBao" class=" function-flex">
+
+                <div id="function-top-img" class="function-img" style="background-image: url(../img/icon/我的钱包.svg)"></div>
+                <div id="function-top-text" class="function-text">我的钱包</div>
+            </div>
+        </div>
+
+        <!--***功能区的下部分*****-->
+        <div id="function-btm" class="">
+
+            <!--会员中心-->
+            <div id="woDeJinBi" class=" function-flex">
+
+                <div id="function-btm-img" class="function-img " style="background-image: url(../img/icon/我的金币.svg)"></div>
+                <div id="function-btm-text" class="function-text ">我的金币</div>
+            </div>
+
+            <!--听歌免流量-->
+            <div id="EchoShangCheng"class=" function-flex">
+
+                <div id="function-btm-img" class="function-img" style="background-image: url(../img/icon/echo商城.svg)"></div>
+                <div id="function-btm-text" class="function-text">echo商城</div>
+            </div>
+
+
+            <!--我的回声-->
+            <div id="WoDeDingDan" class=" function-flex">
+
+                <div id="function-btm-img" class="function-img" style="background-image: url(../img/icon/我的订单.svg)"></div>
+                <div id="function-btm-text" class="function-text">我的订单</div>
+            </div>
+
+
+            <!--我的钱包-->
+            <div id="SaoYiSao" class=" function-flex">
+
+                <div id="function-btm-img" class="function-img" style="background-image: url(../img/icon/扫一扫.svg)"></div>
+                <div id="function-btm-text" class="function-text">扫一扫</div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <!--************************       以下是contentMe层  *********************-->
+
+
+    <div id="contentMe" class="">
+
+        <!--我的MITC-->
+        <div id="WoDeMITC" class="">
+            <div id="WoDeMITC-img" class="" style="background-image: url(../img/icon/MITC.svg)"></div>
+            <div id="WoDeMITC-text" class="">我的MITC</div>
+            <div id="WoDeMITC-1" class="content-flex"></div>
+            <div id="WoDeMITC-WeiJiHuo" class="">未激活&gt;</div>
+
+        </div>
+
+
+        <!--我的任务-->
+        <div id="myMission" class="">
+            <div id="myMission-img" class="" style="background-image: url(../img/icon/我的任务.svg)"></div>
+            <div id="myMission-text" class="">我的任务</div>
+            <div id="myMission-redPoint" class=" xy-center"></div>
+            <div id="myMission-1" class="content-flex"></div>
+            <div id="myMission-done" class="">已完成0/14&gt;</div>
+
+        </div>
+
+
+        <!--今日可免费领取-->
+        <div id="freeget" class=" xy-center">
+            <div id="freeget-text" class="">今日可免费领取</div>
+            <div id="coin" class="">107金币</div>
+
+            <div id="freeget-1" class="content-flex"></div>
+            <div id="doMission-green" class=" xy-center">
+
+                <div id="doMission-text" class="">做任务</div>
+            </div>
+
+        </div>
+
+        <!--兑换券-->
+        <div id="exchange" class=" xy-center">
+            <div id="exchange-img" class="" style="background-image: url(../img/icon/兑换券.svg)"></div>
+            <div id="exchange-text" class="">兑换券</div>
+
+            <div id="exchange-1" class="content-flex"></div>
+
+
+        </div>
+
+        <!--24小时客服-->
+        <div id="service" class="">
+            <div id="service-img" class="" style="background-image: url(../img/icon/24小时客服.svg)"></div>
+            <div id="service-text" class="">24小时客服</div>
+
+            <div id="service-1" class="content-flex"></div>
+
+
+        </div>
+
+
+        <!--设置setup-->
+        <div id="setup" class="">
+            <div id="setup-img" class="" style="background-image: url(../img/icon/设置.svg)"></div>
+            <div id="setup-text" class="">设置</div>
+
+            <div id="setup-1" class="content-flex"></div>
+
+
+        </div>
+
+    </div>
+
+
+    <!--*****************************    以下是底部菜单栏模块 ************************************-->
+
+
+
+    <div id="menus" class="">
+
+        <div id="menus-ear"      class="menus_img menus-flex " style="background-image: url(../img/icon/ear.svg)"><a href="index.html"></a></div>
+        <div id="menus-friends"  class="menus_img menus-flex " style="background-image: url(../img/icon/friends.svg)"><a href="friends.html"></a></div>
+        <div id="menus-plus"     class="menus_img menus-flex " style="background-image: url(../img/icon/plus.svg)"></div>
+        <div id="menus-find"     class="menus_img menus-flex " style="background-image: url(../img/icon/find.svg)"></div>
+        <div id="menus-me"       class="menus_img menus-flex " style="background-image: url(../img/icon/me.svg)"><a href="me.html"></a></div>
+
+
+    </div>
+
+
+</div>
+</body>
+</html>
+
+
+
+<script src="../../../resources/js/jquery/jquery.js"></script>
+
+
+<script src="http://y.gtimg.cn/music/h5/player/player.js?max_age=2592000"></script>
+
+
+<script>
+
+
+    $(function(){
+        $("#title-right-musicBtn").click(() => {
+            $("#play-panel").css('top' , '0%');
+        });
+
+
+        $("#control").click(() => {
+            $("#play-panel").css('top' , '100%');
+        });
+
+
+
+    })
+
+
+    /********************************************************************/
+    let songs = ["000qeAhg2Lj8sH" , "0033jdQI0aW9OX" , "003aAYrm3GE0Ac" , "001Qu4I30eVFYb"];
+
+    $(function(){
+
+        let task;
+
+        // 初始化播放组件
+        let player = new QMplayer({ target: "auto" });
+
+        // 监听事件
+        player.on("play", function () {
+
+            task = setInterval(function(){
+                let currentTime = Math.floor(player.currentTime/60)+":"+Math.ceil(player.currentTime%60);
+                let duration = Math.floor(player.duration/60)+":"+Math.floor(player.duration%60);
+                $("#current-time").html(currentTime);
+                $("#duration").html(duration);
+
+                let time_line_width = $("#time-line").width();
+                $("#point").css('left' ,  player.currentTime/player.duration * time_line_width - 4+"px" );
+
+            } , 500);
+
+            console.log(player.data);
+
+            $("#song").html(player.data.song.title);
+            $("#singer").html(player.data.songs[0].singer[0].name);
+
+            $("#album").css('background-image' , "url(http://imgcache.qq.com/music/photo/album_300/"+(player.data.song.album.id%100)+"/300_albumpic_"+player.data.song.album.id+"_0.jpg");
+
+        });
+
+        player.on("pause" , function() {
+            clearInterval(task);
+        });
+
+
+        $("#list-control-play").click(function(){
+            player.play("004GUrNi4LFtlV");
+            console.log("+++")
+
+        });
+
+        $("#list-control-pause").click(function(){
+            player.pause();
+        })
+    });
+
+
+
+
+</script>
